@@ -13,6 +13,10 @@
 		037721491AFAFEF500696282 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037721481AFAFEF500696282 /* Images.xcassets */; };
 		0377214C1AFAFEF500696282 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0377214A1AFAFEF500696282 /* LaunchScreen.xib */; };
 		037721581AFAFEF500696282 /* Dropbox_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037721571AFAFEF500696282 /* Dropbox_PrototypeTests.swift */; };
+		0379080A1AFEA40700796D94 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037908091AFEA40700796D94 /* TermsViewController.swift */; };
+		0379080C1AFEB47E00796D94 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379080B1AFEB47E00796D94 /* CreateAccountRootViewController.swift */; };
+		0379080E1AFEB73800796D94 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379080D1AFEB73800796D94 /* SignInRootViewController.swift */; };
+		037908101AFEC19F00796D94 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379080F1AFEC19F00796D94 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		037721511AFAFEF500696282 /* Dropbox PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dropbox PrototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037721561AFAFEF500696282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037721571AFAFEF500696282 /* Dropbox_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropbox_PrototypeTests.swift; sourceTree = "<group>"; };
+		037908091AFEA40700796D94 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		0379080B1AFEB47E00796D94 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		0379080D1AFEB73800796D94 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		0379080F1AFEC19F00796D94 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 		037721331AFAFEF500696282 = {
 			isa = PBXGroup;
 			children = (
+				0379080F1AFEC19F00796D94 /* SettingsViewController.swift */,
+				0379080B1AFEB47E00796D94 /* CreateAccountRootViewController.swift */,
+				0379080D1AFEB73800796D94 /* SignInRootViewController.swift */,
+				037908091AFEA40700796D94 /* TermsViewController.swift */,
 				0377213E1AFAFEF500696282 /* Dropbox Prototype */,
 				037721541AFAFEF500696282 /* Dropbox PrototypeTests */,
 				0377213D1AFAFEF500696282 /* Products */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379080E1AFEB73800796D94 /* SignInRootViewController.swift in Sources */,
+				0379080C1AFEB47E00796D94 /* CreateAccountRootViewController.swift in Sources */,
 				037721441AFAFEF500696282 /* ViewController.swift in Sources */,
+				0379080A1AFEA40700796D94 /* TermsViewController.swift in Sources */,
 				037721421AFAFEF500696282 /* AppDelegate.swift in Sources */,
+				037908101AFEC19F00796D94 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				0377215D1AFAFEF500696282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0377215E1AFAFEF500696282 /* Build configuration list for PBXNativeTarget "Dropbox PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				037721601AFAFEF500696282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
