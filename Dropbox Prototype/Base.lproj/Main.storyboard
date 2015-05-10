@@ -293,6 +293,64 @@
             <point key="canvasLocation" x="1457" y="1121"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="nkn-Dx-z9Y">
+            <objects>
+                <viewController id="kuf-8i-FPF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b3d-vS-JIj"/>
+                        <viewControllerLayoutGuide type="bottom" id="nwP-OR-t2w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8P4-32-jJm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logged_out" translatesAutoresizingMaskIntoConstraints="NO" id="2b9-R6-SwM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fur-rF-RIV">
+                                <rect key="frame" x="0.0" y="422" width="320" height="47"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="huW-jO-xvm" kind="push" id="FkS-nb-dRw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wk3-eQ-Btw">
+                                <rect key="frame" x="0.0" y="468" width="320" height="47"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6AZ-zB-NmS" kind="push" id="Wmf-dW-HO9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Xb-ex-9xd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="La8-9k-JT1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="1874"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="n2z-AS-Mbb">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="NTf-Aw-KQm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5AI-hf-fz2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kuf-8i-FPF" kind="relationship" relationship="rootViewController" id="0cM-Xy-44d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DHD-QW-4xi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="1874"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="VnT-K9-iid">
             <objects>
                 <viewController id="uUG-B7-cYA" sceneMemberID="viewController">
@@ -799,7 +857,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="ccb-ou-yKT" kind="modal" id="BZb-ud-ufL"/>
+                                            <segue destination="NTf-Aw-KQm" kind="modal" id="iJZ-bU-ZjV"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -850,9 +908,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="d6v-Wy-HSX"/>
-        <segue reference="FGH-h0-YEh"/>
-        <segue reference="BZb-ud-ufL"/>
-        <segue reference="Nqm-QO-DvT"/>
-        <segue reference="ljn-LY-cjv"/>
+        <segue reference="Wy3-Fo-NrG"/>
+        <segue reference="FkS-nb-dRw"/>
+        <segue reference="Wmf-dW-HO9"/>
     </inferredMetricsTieBreakers>
 </document>
