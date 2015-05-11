@@ -18,6 +18,10 @@
 		0379080E1AFEB73800796D94 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379080D1AFEB73800796D94 /* SignInRootViewController.swift */; };
 		037908101AFEC19F00796D94 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379080F1AFEC19F00796D94 /* SettingsViewController.swift */; };
 		037908121AFEF72A00796D94 /* SettingsExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037908111AFEF72A00796D94 /* SettingsExistingViewController.swift */; };
+		037908181AFF0EBB00796D94 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037908171AFF0EBB00796D94 /* DetailViewController.swift */; };
+		0379081A1AFF362000796D94 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037908191AFF362000796D94 /* FavoritesViewController.swift */; };
+		0379081C1AFF445200796D94 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379081B1AFF445200796D94 /* WelcomeViewController.swift */; };
+		0379081E1B006B9900796D94 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379081D1B006B9800796D94 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		0379080D1AFEB73800796D94 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		0379080F1AFEC19F00796D94 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		037908111AFEF72A00796D94 /* SettingsExistingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsExistingViewController.swift; sourceTree = "<group>"; };
+		037908171AFF0EBB00796D94 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		037908191AFF362000796D94 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		0379081B1AFF445200796D94 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0379081D1B006B9800796D94 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 		037721331AFAFEF500696282 = {
 			isa = PBXGroup;
 			children = (
+				0379081D1B006B9800796D94 /* SignInViewController.swift */,
+				0379081B1AFF445200796D94 /* WelcomeViewController.swift */,
+				037908191AFF362000796D94 /* FavoritesViewController.swift */,
+				037908171AFF0EBB00796D94 /* DetailViewController.swift */,
 				037908111AFEF72A00796D94 /* SettingsExistingViewController.swift */,
 				0379080F1AFEC19F00796D94 /* SettingsViewController.swift */,
 				0379080B1AFEB47E00796D94 /* CreateAccountRootViewController.swift */,
@@ -227,13 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379081E1B006B9900796D94 /* SignInViewController.swift in Sources */,
 				0379080E1AFEB73800796D94 /* SignInRootViewController.swift in Sources */,
+				0379081C1AFF445200796D94 /* WelcomeViewController.swift in Sources */,
+				0379081A1AFF362000796D94 /* FavoritesViewController.swift in Sources */,
 				0379080C1AFEB47E00796D94 /* CreateAccountRootViewController.swift in Sources */,
 				037721441AFAFEF500696282 /* ViewController.swift in Sources */,
 				0379080A1AFEA40700796D94 /* TermsViewController.swift in Sources */,
 				037721421AFAFEF500696282 /* AppDelegate.swift in Sources */,
 				037908101AFEC19F00796D94 /* SettingsViewController.swift in Sources */,
 				037908121AFEF72A00796D94 /* SettingsExistingViewController.swift in Sources */,
+				037908181AFF0EBB00796D94 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
