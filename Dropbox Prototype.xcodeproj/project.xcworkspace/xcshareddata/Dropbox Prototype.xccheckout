@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F4E7B2E6-1579-47C1-B9B4-0E11CB542252</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Dropbox Prototype</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1191B1F6339D3D9BA9AA978C77DA2404B9FCF521</key>
 		<string>https://github.com/roberkanho/DropboxPrototype.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Dropbox Prototype.xcodeproj</string>
+	<string>Dropbox Prototype.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1191B1F6339D3D9BA9AA978C77DA2404B9FCF521</key>
